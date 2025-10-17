@@ -1,0 +1,48 @@
+# =====================================
+# Global .gitignore for Qt/CMake projects
+# =====================================
+
+# --- Build directories ---
+build*/
+[Cc]MakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- Qt Creator user/project settings ---
+*.user
+*.user.*
+*.pro.user
+*.autosave
+
+# --- Compiled binaries and objects ---
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+
+# --- Temporary or backup files ---
+*~
+*.swp
+*.tmp
+*.bak
+*.log
+
+# --- OS specific files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- IDE specific (optional safety) ---
+.vscode/
+.idea/
+*.kate-swp
+
+# --- Other generated or cache directories ---
+__pycache__/
+*.qrc.dep
